@@ -1,108 +1,90 @@
-/********** Base styles **********/
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
-* {
-  box-sizing: border-box;
-  margin: 0 0 0 0;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 body {
-  font-size:16px;
-  font-family:'Comic Neue', cursive;
-}
-.top{
-  width:100%;
-  overflow: hidden;
-
-}
-header{
-  background-color: #88888f;
-   border-bottom:2px solid black; 
-   border-top: 2px solid black;
-    
-}
-h1 {
-  height: 60px;
-  line-height: 60px;
-  margin-left: 30px;
-  width:25%;
-}
-.icon {
-  position: absolute;
-  top: 0;
-  right: 3%;
-  width:4em;
-  height: 4em;
-}
-
-nav{
-  border: 2px solid black;
-  text-align: center;
-  background-color: white;
-  display: block;
-}
-.icon:hover{
-  color: white;
-}
-svg:hover navb{
-    display: none;
-    visibility: hidden;
-}
-
-a {
+  font-size: 16px;
   color: black;
-  text-decoration: none;
-}
-
-h2{   /*our menu**/
-  text-align: center;
-  margin: 20 auto 25;
-
-}
-
-.box {
-  background-color: #88888f;
- 
+  background-color: #ffeeee;
   
 }
 
-/* Title of Paragraphs*/
-.Title{
-  text-align: center;
-  padding-top: 10;
+* {
+font-family: 'PT Sans', sans-serif;
+	color: black;
 }
 
-.md{
-  background-color: red;
+
+.navbar
+{
+	background-color: gray;
 }
 
-.paragraph{
-  margin: 10px;
-  color: black;
-  clear: both;
-  }
-
-
-
-/**********desktop/ Tablet devices**********/
-@media (min-width: 768px){
-.md{
-  max-width: 95%;
-  margin: 0 auto 0;
-}
-.icon{
-  display: none;
-}
-nav{
-  display: none;
+#btn1
+{
+	background-color: gray;
 }
 
-/********** Mobile devices only **********/
-@media (max-width: 767px) {
-  .sm{
-    max-width: 85%;
-    margin: 0 auto ;
-  }
-  
+#header_button
+{
+	background-color: #333;
+	margin-left:-30px;
+	margin-right:-30px;
+	/*margin-top: 100px*/
+	margin-bottom: -10px;
+	/*padding-bottom: -50px*/
+	padding-top: 10px
+}
+#header_button ul
+{
+	list-style: none
+}
+#header_button li
+{
+	text-align: center;
+	color: black;
+	padding-top:5px;
+	padding-bottom: 5px
 }
 
+
+li a {
+	text-decoration: none;
+	color:#ffbbbb;
+}
+
+.container h2
+{
+	margin-top: 100px
+}
+
+h3{
+	text-align: center;
+	color:#222;
+}
+
+.section
+{
+	background-color:#ffbbbb;
+	padding:10px;
+
+}
+
+.BackToTop
+{
+	margin-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	color:red;
+}
+.section a
+{
+	text-decoration: underline;
+}
+
+@media (min-width: 300px)
+{
+	.col-xs-12
+	{
+		width:100%;
+		margin-bottom:10px;
+	}
+}
